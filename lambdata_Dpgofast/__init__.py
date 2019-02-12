@@ -1,1 +1,1 @@
-name = lambdata 
+name = 'lambdata' 
