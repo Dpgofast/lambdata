@@ -17,12 +17,13 @@ setuptools.setup(
     description = ' A collection of Data Science helper functions',
     long_description = LONG_DESCRIPTION,
     long_descrition_content_type = 'text/markdown',
-    url = 'https://github.com/Dpgofast/lambdata'
-    packages = setuptools.find_packages(),
+    url = 'https://github.com/Dpgofast/lambdata',
+    packages=setuptools.find_packages(),
     python_requires = '>=3.5',
-    install_requires = REQUIRED
-    classifiers = [ "Programming Language :: Python :: 3",
+    install_requires = REQUIRED,
+    classifiers=[
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent"
+        "Operating System :: OS Independent",
         ]
 )
