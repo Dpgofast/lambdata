@@ -13,8 +13,8 @@ with open('README.MD', 'r') as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name = 'lambdata_Dpgofast',
-    version = '0.1.3',
+    name = 'lambdata-Dpgofast',
+    version = '0.0.3',
     author = 'Dpgofast',
     description = ' A collection of Data Science helper functions',
     long_description = LONG_DESCRIPTION,
