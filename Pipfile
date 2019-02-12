@@ -5,10 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 twine = "*"
+matplotlib-pyplot = "*"
+matplotlib = "*"
 
 [packages]
 numpy = "*"
 pandas = "*"
+matplotlib-pyplot = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.5"
