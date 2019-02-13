@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 
 ONES = np.ones(100)
-ONES_DF = pd.dataframe(ONES)
+ONES_DF = pd.DataFrame(ONES)
 
 class DataSci:
     '''Creates useful functions for use in DataScience'''
