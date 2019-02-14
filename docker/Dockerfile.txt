@@ -8,6 +8,7 @@ ENV PYTHONUNBUFFERED=1
 RUN apt-get update && \
   apt-get upgrade -y && \
   apt-get install python3-pip curl nano -y && \
+  apt-get install python3-pip matplotlib -y && \
   pip3 install pandas && \
   pip3 install -i https://test.pypi.org/simple/ lambdataDpgofast && \
   python3 -c "import lambdataDpgofast; print('Success!')"
