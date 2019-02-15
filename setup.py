@@ -14,7 +14,7 @@ with open('README.MD', 'r') as fh:
 
 setuptools.setup(
     name='lambdata-dpgofast',
-    version='0.0.5',
+    version='0.0.6',
     author='Dpgofast',
     description=' A collection of Data Science helper functions',
     long_description=LONG_DESCRIPTION,
